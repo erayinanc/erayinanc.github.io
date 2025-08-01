@@ -97,7 +97,7 @@ body {
     justify-content: center;
     text-align: center;
     min-height: 80vh;
-    padding: var(--header-height) 2rem 2rem;
+    padding: var(--header-height) 2rem 0;
 }
 
 .profile-pic {
@@ -286,9 +286,4 @@ a:hover {
 
     .hero-title { font-size: 2.5rem; }
     .content-section h2 { font-size: 2rem; }
-}
-
-/* --- Custom Spacing for First Section --- */
-#about {
-    padding-top: -1rem; /* Adjust this value as needed */
 }

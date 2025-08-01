@@ -290,5 +290,5 @@ a:hover {
 
 /* --- Custom Spacing for First Section --- */
 #about {
-    padding-top: 1rem; /* Adjust this value as needed */
+    padding-top: -1rem; /* Adjust this value as needed */
 }

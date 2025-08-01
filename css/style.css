@@ -199,51 +199,6 @@ a:hover {
     text-align: left;
 }
 
-/* --- Publications Section (Itemised List) --- */
-.publication-list ol {
-    list-style: none;
-    counter-reset: pub-counter;
-    padding-left: 0;
-    text-align: left;
-}
-
-.publication-list li {
-    position: relative;
-    padding: 1.25rem 0 1.25rem 3rem; /* Add left padding for the number */
-    border-bottom: 1px solid var(--border-color);
-}
-
-.publication-list li:last-child {
-    border-bottom: none;
-}
-
-.publication-list li::before {
-    counter-increment: pub-counter;
-    content: counter(pub-counter);
-    position: absolute;
-    left: 0;
-    top: 1.25rem;
-    width: 2rem;
-    text-align: right;
-    font-family: var(--font-heading);
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: var(--primary-color);
-}
-
-.publication-list strong {
-    font-size: 1.1rem;
-    color: var(--secondary-color);
-    display: block;
-    margin-bottom: 0.25rem;
-}
-
-.publication-list em {
-    font-style: italic; /* Keep italic for journals */
-}
-
-
-/* --- Talks & Awards Lists --- */
 .list-container {
     background: var(--surface-color);
     padding: 2rem;
